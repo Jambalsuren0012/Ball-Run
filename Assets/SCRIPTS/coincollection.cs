@@ -20,7 +20,7 @@ public class coincollection : MonoBehaviour
         {
             Coin++;
             coinText.text = "Coin: " + Coin.ToString();
-            Debug.Log(Coin);
+            //Debug.Log(Coin);
 
             // Here you can do all sorts of cool stuff with the collected coin.
             // Like rotate it, activate particles, play audio, or just destroy it.
